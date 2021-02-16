@@ -558,6 +558,7 @@ pre code {
   .container-sm, .container {
     max-width: 540px;
   }
+  
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
@@ -573,6 +574,7 @@ pre code {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
+ 
 }
 .row {
   display: flex;
@@ -1920,6 +1922,74 @@ pre code {
   .table-responsive-sm > .table-bordered {
     border: 0;
   }
+  /*LS*/
+  h1 ,h3{
+    font-size: 1.20em !important;
+  }
+  .masthead {
+    padding-bottom: 3.00em !important;
+  }
+  .page-section{
+
+    padding:3em 0 !important;
+  }
+  .page-section .page-section-heading{
+    font-size:1.20em !important;
+  }
+
+  .icon-little {
+    font-size: 70px !important;
+}
+
+h2  {
+
+  padding-bottom: 1.00rem !important;
+}
+
+
+h4 {
+text-align: center !important;
+}
+
+
+p[class*=lead] {
+
+  padding-top:1.00rem !important;
+  
+ 
+}
+p[class*=FontOriginale]  {
+  font-size:20px !important;
+}
+
+.FontOriginale {
+  font-size:25px !important;
+}
+
+.SezOnLeft {
+  padding-right: 0px !important;
+}
+
+#contatti
+{
+  padding: 1em 0 !important;
+}
+.icon-medium {
+  font-size: 40px !important;
+ 
+}
+
+
+.floating-label-form-group input, .floating-label-form-group textarea
+{
+
+  font-size: 1.2em !important;
+}
+
+  .divider-custom {
+    display: none !important;
+  }
+
 }
 @media (max-width: 767.98px) {
   .table-responsive-md {
@@ -6360,7 +6430,13 @@ button.bg-dark:focus {
   .d-sm-inline-flex {
     display: inline-flex !important;
   }
+
+ 
+
+  
 }
+
+
 @media (min-width: 768px) {
   .d-md-none {
     display: none !important;
@@ -6397,6 +6473,7 @@ button.bg-dark:focus {
   .d-md-inline-flex {
     display: inline-flex !important;
   }
+ 
 }
 @media (min-width: 992px) {
   .d-lg-none {
@@ -9673,7 +9750,7 @@ button.bg-dark:focus {
 }
 
 .text-left {
-  text-align: left !important;
+  text-align: left ;
 }
 
 .text-right {
@@ -10092,6 +10169,12 @@ h3 {
     font-size: 1.75em;
     transition: font-size 0.3s;
   }
+  /*LS*/
+  #mainNav .second-word
+  {
+    font-size: 1.75em;
+    transition: font-size 0.3s;
+  }
   #mainNav .navbar-nav {
     margin-top: 0;
   }
@@ -10124,7 +10207,8 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+ /* width: 15rem;*/
+ width:70%;
 }
 
 @media (min-width: 992px) {
@@ -10325,7 +10409,7 @@ section[class*=bg-numeri-business] h1{
 .responsive {
   width: 100%;
   height: auto;
-  max-width: 768px;
+  max-width: 970px;
 }
 
 /*sezione contatti*/
@@ -10353,6 +10437,13 @@ section[class*=bg-numeri-business] h1{
   text-decoration: underline;
  /* animation-name: example;
   animation-duration: 4s;*/
+}
+
+.FontOriginale {
+  font-style:italic;
+  Font-family:"Times New Roman";
+  font-size:40px;
+
 }
 
 
