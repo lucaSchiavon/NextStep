@@ -1986,6 +1986,11 @@ p[class*=FontOriginale]  {
   font-size: 1.2em !important;
 }
 
+#freccia-cliccami{
+  top:22px !important;
+  left:-23px !important;
+}
+
   .divider-custom {
     display: none !important;
   }
@@ -10396,6 +10401,10 @@ section[id=contatti]  div[class*=divider-custom-icon]{
 .orange {
 
   color:#ee964b !important
+}
+.red {
+
+  color:#f95738 !important
 }
 
 /*sezione numeri business*/
