@@ -8,7 +8,7 @@ function sendEmail() {
 	Subject : "Prova invio mail da client JS",
 	Body : "questo il body",
 	}).then(
-		message => alert("Il messaggio è stato inviato da elastic in chiaro, grazie di avermi contattato.")
+		message => alert(message)
 	);
 }
 
