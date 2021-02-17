@@ -10454,8 +10454,10 @@ section[class*=bg-numeri-business] h1{
   font-size:40px;
 
 }
-
-
+/*iubenda*/
+a[class*=iubenda-black] {
+background: #2c3e50 url(//cdn.iubenda.com/icon_gray_mini.png) no-repeat;
+}
 
 /*carousel */
 .multi-item-carousel .carousel-inner > .item {
