@@ -2,9 +2,9 @@ function sendEmail() {
 	Email.send({
 	Host: "smtp.elasticemail.com",
 	Username : "luca.schiavon@elasticemail.com",
-	Password : "D8D73EC4BE099F35DF66B05D909DAC6E3D0E",
+	Password : "19D34E379A6D00A745F47340500E76EA57ED",
 	To : 'luca.schiavon@alice.it',
-	From : "luca.schiavon@elasticemail.com",
+	From : "info@lucaschiavon.eu",
 	Subject : "Prova invio mail da client JS",
 	Body : "questo il body",
 	}).then(
@@ -12,15 +12,15 @@ function sendEmail() {
 	);
 }
 
-function sendEmailEncript() {
+function sendEmailEncriptFromAruba() {
 Email.send({
-    SecureToken : "5d731729-1ec5-42ba-bf84-85a3aead8dfe",
+    SecureToken : "a0cf2006-58c8-4ccf-aab3-24ac4b901887",
     To : 'luca.schiavon@alice.it',
     From : "info@lucaschiavon.eu",
     Subject : "This is the subject",
     Body : "And this is the body"
 }).then(
-  message => alert("Il messaggio è stato inviato, grazie di avermi contattato.")
+  message => alert(message)
 );
 }
 
