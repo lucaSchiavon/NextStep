@@ -1,10 +1,10 @@
 function sendEmail() {
 	Email.send({
 	Host: "smtp.elasticemail.com",
-	Username : "luca.schiavon@elasticemail.com",
-	Password : "19D34E379A6D00A745F47340500E76EA57ED",
+	Username : "robot@elasticemail.com",
+	Password : "C2057B4B8758D9CFCB428F3BB53B7E232616",
 	To : 'luca.schiavon@alice.it',
-	From : "info@lucaschiavon.eu",
+	From : "robot@elasticemail.com",
 	Subject : "Prova invio mail da client JS",
 	Body : "questo il body",
 	}).then(
