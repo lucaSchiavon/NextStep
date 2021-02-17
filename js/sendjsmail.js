@@ -4,7 +4,7 @@ function sendEmail() {
 	Username : "luca.schiavon@elasticemail.com",
 	Password : "D8D73EC4BE099F35DF66B05D909DAC6E3D0E",
 	To : 'luca.schiavon@alice.it',
-	From : "info@lucaschiavon.eu",
+	From : "luca.schiavon@elasticemail.com",
 	Subject : "Prova invio mail da client JS",
 	Body : "questo il body",
 	}).then(
