@@ -12,9 +12,35 @@ function sendEmail() {
 	);
 }
 
+function sendEmailWithGoogle() {
+	Email.send({
+	Host: "smtp.gmail.com",
+	Username : "lully.schiavon@gmail.com",
+	Password : "gmaillully",
+	To : 'luca.schiavon@alice.it',
+	From : "lully.schiavon@gmail.com",
+	Subject : "Prova invio mail da client JS con google",
+	Body : "questo il body",
+	}).then(
+		message => alert(message)
+	);
+}
+
+function sendEmailEncriptFromGoogle() {
+	Email.send({
+		SecureToken : "9640ee49-5a45-4fec-8047-8b7a8937f641",
+		To : 'luca.schiavon@alice.it',
+		From : "lully.schiavon@gmail.com",
+		Subject : "This is the subject",
+		Body : "And this is the body"
+	}).then(
+	  message => alert(message)
+	);
+	}
+
 function sendEmailEncriptFromAruba() {
 Email.send({
-    SecureToken : "a0cf2006-58c8-4ccf-aab3-24ac4b901887",
+    SecureToken : "59a7cfb1-9b34-4e99-beb1-fc70c81ebaa5",
     To : 'luca.schiavon@alice.it',
     From : "info@lucaschiavon.eu",
     Subject : "This is the subject",
